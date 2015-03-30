@@ -1,3 +1,24 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+  h1{
+      color:orange;
+      text-align: center;
+     font-family:Helvetica;
+    }
+
+  .btn-success{
+    text-decoration:none;
+    font-family: Arial;
+    margin-top:30px;
+    background-color: orange !important;
+    border-color: blue !important;
+    color: green !important;
+   }
+ 
+   .wrapper{
+     text-align: center; 
+     marign: auto;
+  }
+
+ 

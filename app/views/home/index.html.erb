@@ -1,3 +1,12 @@
-<h1>Startup Idea Generator</h1>
-<div class="idea"><%= @bus.business.sample %> for <%= @adj.adjective.sample %></div>
+<h1>Startup Ideas</h1>
+<div class="wrapper">
+  
+    <div class="idea"><%= @bus.business.sample %></div>
 
+    <p>for</p>
+
+    <div class="bus"> <%= @adj.adjective.sample %></div>
+
+     <%= link_to 'New Idea', root_path, class:'btn btn-success'  %> 
+
+</div>
