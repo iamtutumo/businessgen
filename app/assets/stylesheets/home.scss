@@ -7,45 +7,90 @@
     }
 
   h1{
-    color: #d3d3f4 !important;
+    color: #FF3300 !important;
     text-align: center;
     font-family: Helvetica;
-    font-size: 150px !important;
-    background-color: #3535ce !important;
+    font-size: 80px !important;
+    background-color: #1947D1 !important;
+       text-shadow:
+               3px 3px 0 #000,
+              -1px -1px 0 #000,  
+               1px -1px 0 #000,
+              -1px 1px 0 #000,
+               1px 1px 0 #000;
     }
 
    .idea{
-      font-size: 100px;
+      font-size: 40px;
       font-family: 'Hind', sans-serif;
       color: #d3d3f4 !important;
+      margin-top: 30px;
     } 
 
     .bus{
-    font-size: 100px;
+    font-size: 40px;
     color: #d3d3f4 !important;
     font-family: 'Hind', sans-serif;
 
     }
 
     p {
-    font-size: 70px;
+    font-size: 20px;
     color: white !important;
     }
 
   .btn-success{
     text-decoration:none;
     font-family: Arial;
-    margin-top:75px;
-    background-color: #0060D6 !important;
-    color: #FF5E4F  !important;
-    font-size: 70px !important;
+    margin-top:45px;
+    background-color: #1947D1 !important;
+    color: #D6FF5C  !important;
+    font-size: 30px !important;
+    border-color: #FF3300 !important;
    }
  
-#parrot {
-    position:absolute; 
-    top: 60vh;
-    left: 30vw;
-      margin-top: 40px;  
-      text-align: center;
-      }
+#parrot{
+  margin-top: 40px !important;
+}
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+  h1{
+    font-size: 50px  !important;
+    }
+
+    }
+
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+
+      h1{                           
+        font-size: 50px  !important; 
+}                                  }
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+  h1{                           
+    font-size: 50px  !important; 
+}                                  }
+
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+  h1{                           
+    font-size: 50px  !important; 
+}                                  }
 
