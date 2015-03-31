@@ -56,13 +56,18 @@
 @media only screen 
 and (min-device-width: 414px) 
 and (max-device-width: 736px) 
-and (-webkit-min-device-pixel-ratio: 3) { 
+and (-webkit-min-device-pixel-ratio: 3){ 
 
   h1{
     font-size: 50px  !important;
     }
 
-    }
+    #parrot{
+      height: 100px;
+      margin-top:40px;
+             }
+
+ }
 
     @media only screen 
     and (min-device-width: 375px) 
@@ -71,7 +76,16 @@ and (-webkit-min-device-pixel-ratio: 3) {
 
       h1{                           
         font-size: 50px  !important; 
-}                                  }
+         }
+
+  #parrot{
+          height: 100px;
+           margin-top:40px;
+         }
+
+         
+}
+
 
 
 @media only screen 
@@ -81,7 +95,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   h1{                           
     font-size: 50px  !important; 
-}                                  }
+  }
+
+  #parrot{
+          height: 100px;
+           margin-top:40px;
+         }
+}
+
 
 
 
@@ -92,5 +113,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   h1{                           
     font-size: 50px  !important; 
-}                                  }
+     }
 
+  #parrot{
+          height: 100px;
+           margin-top:40px;
+         }
+}
