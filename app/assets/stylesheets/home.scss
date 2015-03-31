@@ -27,14 +27,15 @@
 
     }
 
-    p{
-    font-size: 50px;
+    p {
+    font-size: 70px;
+    color: white !important;
     }
 
   .btn-success{
     text-decoration:none;
     font-family: Arial;
-    margin-top:30px;
+    margin-top:75px;
     background-color: #0060D6 !important;
     color: #FF5E4F  !important;
     font-size: 70px !important;
@@ -42,9 +43,9 @@
  
 #parrot {
     position:absolute; 
-    top: 50vh;
-    left: 50vw;
-    transform: translate3d(-50%, -50%, 0);
+    top: 60vh;
+    left: 30vw;
       margin-top: 40px;  
+      text-align: center;
       }
 
