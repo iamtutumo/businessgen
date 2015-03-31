@@ -3,7 +3,7 @@ class Adjective < ActiveRecord::Base
 
   
   def initialize
-    a = ["cats", "dogs", "people who are gluten free", "hipsters", "stangers", "italians", "construction workers", "dolpins", "mascots"]
+    a = ["cats", "dogs", "people who are gluten free", "hipsters", "stangers", "italians", "construction workers", "dolphins", "mascots", "putos"]
     @adjective = a
   end
 end

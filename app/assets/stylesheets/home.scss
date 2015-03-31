@@ -1,10 +1,34 @@
-// Place all the styles related to the home controller here.
+// Place all the styles related to the home controller here.pp not found
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+  body{
+  text-align: center;
+  background-color: #141452 !important;
+    }
+
   h1{
-      color:orange;
-      text-align: center;
-     font-family:Helvetica;
+    color: #d3d3f4 !important;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 150px !important;
+    background-color: #3535ce !important;
+    }
+
+   .idea{
+      font-size: 100px;
+      font-family: 'Hind', sans-serif;
+      color: #d3d3f4 !important;
+    } 
+
+    .bus{
+    font-size: 100px;
+    color: #d3d3f4 !important;
+    font-family: 'Hind', sans-serif;
+
+    }
+
+    p{
+    font-size: 50px;
     }
 
   .btn-success{
@@ -14,11 +38,7 @@
     background-color: orange !important;
     border-color: blue !important;
     color: green !important;
+    font-size: 70px !important;
    }
  
-   .wrapper{
-     text-align: center; 
-     marign: auto;
-  }
-
  
