@@ -41,7 +41,7 @@
 
   .btn-success{
     text-decoration:none;
-    font-family: Arial;
+    font-family: 'Merienda', cursive; 
     margin-top:45px;
     background-color: #1947D1 !important;
     color: #D6FF5C  !important;
@@ -52,58 +52,6 @@
 #parrot{
   margin-top: 40px !important;
 }
-
-@media only screen 
-and (min-device-width: 414px) 
-and (max-device-width: 736px) 
-and (-webkit-min-device-pixel-ratio: 3){ 
-
-  h1{
-    font-size: 28px  !important;
-    }
-
-    #parrot{
-      height: 100px;
-      margin-top:40px;
-             }
-
- }
-
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
-    and (-webkit-min-device-pixel-ratio: 2) { 
-
-      h1{                           
-        font-size: 27px !important; 
-         }
-
-  #parrot{
-          height: 100px;
-           margin-top:40px;
-         }
-
-         
-}
-
-
-
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 568px) 
-and (-webkit-min-device-pixel-ratio: 2) { 
-
-  h1{                           
-    font-size: 29px  !important; 
-  }
-
-  #parrot{
-          height: 100px;
-           margin-top:40px;
-         }
-}
-
-
 
 
 @media only screen 
@@ -120,3 +68,59 @@ and (-webkit-min-device-pixel-ratio: 2) {
            margin-top:40px;
          }
 }
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+  h1{                           
+    font-size: 22px  !important; 
+  }
+
+  #parrot{
+          height: 100px;
+           margin-top:40px;
+         }
+}
+
+
+
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+
+      h1{                           
+        font-size: 26px !important; 
+         }
+
+  #parrot{
+          height: 100px;
+           margin-top:40px;
+         }
+
+         
+}
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3){ 
+
+  h1{
+    font-size: 29px !important;
+    }
+
+    #parrot{
+      height: 100px;
+      margin-top:40px;
+             }
+
+ }
+
+
+
+
+
+
