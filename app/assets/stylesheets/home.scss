@@ -68,6 +68,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
           height: 100px;
            margin-top:40px;
          }
+
+   .idea{
+      font-size: 25px;
+    } 
+
+    .bus{
+    font-size: 25px;
+
+    }
 }
 
 @media only screen 
@@ -80,9 +89,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
   #parrot{
-          height: 100px;
-           margin-top:40px;
-         }
+    height: 100px;
+    margin-top:40px;
+       }
+
+  .idea{ 
+    font-size: 25px;
+       } 
+
+ .bus{
+   font-size: 25px;
+     }
+
 }
 
 
@@ -100,8 +118,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
           height: 100px;
            margin-top:40px;
          }
-
          
+  .idea{ 
+    font-size: 25px;
+       } 
+
+ .bus{
+   font-size: 25px;
+     }
 }
 
 @media only screen 
@@ -118,6 +142,13 @@ and (-webkit-min-device-pixel-ratio: 3){
       margin-top:40px;
              }
 
+  .idea{ 
+    font-size: 25px;
+       } 
+
+ .bus{
+   font-size: 25px;
+     }
  }
 
 
