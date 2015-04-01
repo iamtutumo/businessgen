@@ -77,6 +77,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 25px;
 
     }
+
+    img {
+      height: 53px;
+      width: 320px;
+      margin-top: 2px;
+        }
 }
 
 @media only screen 
@@ -101,6 +107,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
    font-size: 25px;
      }
 
+  img {
+        height: 121px;
+         width: 320px;
+         margin-top: 25px;
+       }
 }
 
 
@@ -126,6 +137,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
  .bus{
    font-size: 25px;
      }
+  img {
+        height: 125px;
+         width: 375px;
+         margin-top: 115px;
+       }
 }
 
 @media only screen 
@@ -149,6 +165,11 @@ and (-webkit-min-device-pixel-ratio: 3){
  .bus{
    font-size: 25px;
      }
+  img {
+        height: 145px;
+         width: 414px;
+         margin-top: 131px;
+       }
  }
 
 
