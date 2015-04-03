@@ -1,0 +1,182 @@
+/* line 4, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+body {
+  text-align: center;
+  background-color: #141452 !important;
+}
+
+/* line 9, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+h1 {
+  color: #FF3300 !important;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 80px !important;
+  background-color: #1947D1 !important;
+  padding: 5px;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* line 24, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+.idea {
+  font-size: 40px;
+  font-family: 'Hind', sans-serif;
+  color: #FF9900 !important;
+  margin-top: 30px;
+}
+
+/* line 31, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+.bus {
+  font-size: 40px;
+  color: #FF9900 !important;
+  font-family: 'Hind', sans-serif;
+}
+
+/* line 38, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+p {
+  font-size: 20px;
+  color: white !important;
+}
+
+/* line 43, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+.btn-success {
+  text-decoration: none;
+  font-family: 'Roboto';
+  margin-top: 45px;
+  background-color: #1947D1 !important;
+  color: #D6FF5C  !important;
+  font-size: 30px !important;
+  border-color: #FF3300 !important;
+}
+
+/* line 53, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+#parrot {
+  margin-top: 40px !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 63, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  h1 {
+    font-size: 22px  !important;
+  }
+
+  /* line 67, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  #parrot {
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  /* line 72, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  .idea {
+    font-size: 25px;
+  }
+
+  /* line 76, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  .bus {
+    font-size: 25px;
+  }
+
+  /* line 81, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  img {
+    height: 53px;
+    width: 320px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 92, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  h1 {
+    font-size: 22px  !important;
+  }
+
+  /* line 96, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  #parrot {
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  /* line 101, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  .idea {
+    font-size: 25px;
+  }
+
+  /* line 105, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  .bus {
+    font-size: 25px;
+  }
+
+  /* line 109, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  img {
+    height: 121px;
+    width: 320px;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 122, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  h1 {
+    font-size: 26px !important;
+  }
+
+  /* line 126, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  #parrot {
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  /* line 131, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  .idea {
+    font-size: 25px;
+  }
+
+  /* line 135, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  .bus {
+    font-size: 25px;
+  }
+
+  /* line 138, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  img {
+    height: 125px;
+    width: 375px;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* line 149, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  h1 {
+    font-size: 29px !important;
+  }
+
+  /* line 153, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  #parrot {
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  /* line 158, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  .idea {
+    font-size: 25px;
+  }
+
+  /* line 162, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  .bus {
+    font-size: 25px;
+  }
+
+  /* line 165, /Users/isaacito/synkt_proj/businessgen/app/assets/stylesheets/home.scss */
+  img {
+    height: 145px;
+    width: 414px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
